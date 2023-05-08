@@ -4,6 +4,8 @@ from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
+
+# generate launch description file
 def generate_launch_description():
     package_name = 'rl_cartpole_humble_example'
     share_dir = get_package_share_directory(package_name)
